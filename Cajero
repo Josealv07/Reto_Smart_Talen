@@ -1,19 +1,19 @@
 # Reto Smart talent Talent Fest Medellin - Participante José Sebastián Álvarez Mendoza
-#Realizado en lenguaje python
+# Realizado en lenguaje python
 while True:
     cantidad = int(input('Ingrese la cantidad que desea retirar: '))
     if cantidad % 10000 == 0:
         break
     print("Debe introducirse un número multiplo de 10.000")
     
-billetes50 = cantidad//50000
-saldo     = cantidad-50000*(billetes50)
-billetes20 = saldo//20000
-saldo     = saldo-20000*(billetes20)
-billetes10 = saldo//10000
-saldo     = saldo-10000*(billetes10)
+billetes50 = cantidad // 50000
+saldo     = cantidad - 50000 * (billetes50)
+billetes20 = saldo // 20000
+saldo     = saldo - 20000 * (billetes20)
+billetes10 = saldo // 10000
+saldo     = saldo - 10000 * (billetes10)
 
-        # Salida
+# Salida
 print ('Billetes de 50.000:',billetes50)
 print ('Billetes de 20.000:',billetes20)
 print ('Billetesde 10.000:',billetes10)
