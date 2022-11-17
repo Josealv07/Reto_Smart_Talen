@@ -7,11 +7,11 @@ while True:
     print("Debe introducirse un número multiplo de 10.000")
     
 billetes50 = cantidad // 50000
-saldo     = cantidad - 50000 * (billetes50)
+saldo = cantidad - 50000 * (billetes50)
 billetes20 = saldo // 20000
-saldo     = saldo - 20000 * (billetes20)
+saldo = saldo - 20000 * (billetes20)
 billetes10 = saldo // 10000
-saldo     = saldo - 10000 * (billetes10)
+saldo = saldo - 10000 * (billetes10)
 
 # Salida
 print ('Billetes de 50.000:',billetes50)
