@@ -1,4 +1,5 @@
 # Reto Smart talent Talent Fest Medellin - Participante José Sebastián Álvarez Mendoza
+#Realizado en lenguaje python
 while True:
     cantidad = int(input('Ingrese la cantidad que desea retirar: '))
     if cantidad % 10000 == 0:
